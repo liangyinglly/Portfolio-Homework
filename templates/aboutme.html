@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Portfolio Website
+{% endblock %}
+
+{% block message %}
+<nav class="nav2">
+    <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/aboutme">About Me</a></li>
+        <li><a href="/experiences">Experiences</a></li>
+        <li><a href="/moreInfo">MoreInfo</a></li>
+    </ul>
+</nav>
+
+<!--About Section Start-->
+<section class="about">
+    <div class="main">
+        <img src="static/image/hiking3.jpg">
+        <div class="about-text">
+            <h2>About Me</h2>
+            <h5>Student & Explorer</h5>
+            <p>I'm a student who major in Department of Information Management. I really enjoy in 
+                the courses I have taken recently. "AI introduction" and "Data Science" are my favorite 
+                subjects this semester and spent quite a lot of time on them. Instead of a student, I'm also an
+                explorer of my own. I really like outdoor activities, such as hiking and surfing. Besides,
+                exploring others innovative ideas are also on of my favorite hobby. Therefore, I'm the sub-curator
+                in TEDxNCU, whose core value is "ideas worth spreading".
+            </p>
+        </div>
+    </div>
+</section>
+
+{% endblock message %}

@@ -1,0 +1,274 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../image/set-of-mid-century-modern-minimalist-art-print-abstract-mountain-contemporary-aesthetic-backgrounds-landscapes-illustrations-vector.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.logo{
+    color: rgb(100, 125, 152);
+    font-size: 55px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+span{
+    color: rgb(255, 255, 255);
+}
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding :10px 25px;
+}
+nav ul li a{
+    color:rgb(100, 125, 152);
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color: rgb(255, 255, 255);
+    transition: .4s;
+}
+.btn{
+    background-color: white;
+    color:rgb(100, 125, 152);
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+.btn:hover{
+    transform: scale(1.2);
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+h1{
+    color: rgb(49, 70, 88);
+    margin: 20px 0px 20px;
+    font-size: 50px;
+    font-weight: 500;
+}
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: rgb(64, 88, 116);
+}
+.about img{
+    height: auto;
+    width: 600px;
+}
+.about-text{
+    width: 550px;
+    margin: 5%;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h2{
+    color:white;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about-text h5{
+    color: rgb(240, 216, 220);
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.about-text p{
+    color:rgb(255, 255, 255);
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+.experience{
+    background: rgb(64, 88, 116);
+    width: 100%;
+    padding: 100px 0px;
+}
+.title h2{
+    color:white;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: rgb(108, 140, 177);
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color:white;
+}
+h5{
+    color:white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 23px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+.pra p{
+    color: white;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+.card .button{
+    background-color: white;
+    color: rgb(100, 125, 152);
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px ;
+    border-radius: 30px;
+    transition: .4s;
+}
+.card .button:hover{
+    background-color: rgb(240, 216, 220);
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+
+
+.moreInfo{
+    width: 100%;
+    background: rgb(64, 88, 116);
+    /*display:flex;
+    align-items:center;
+    flex-direction:column;
+    justify-content: center;*/
+}
+.moreInfo .box2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.moreInfo .box2 .card2{
+    height: 250px;
+    width: 400px;
+    padding: 20px 35px;
+    background: rgba(162, 185, 213, 0.688);
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.moreInfo .button-two{
+    background-color: white;
+    color: rgb(100, 125, 152);
+    text-decoration: none;
+    border: 1px solid transparent;
+    font-weight: bold;
+    padding: 13px 50px ;
+    border-radius: 30px;
+    transition: .4s;
+    position: relative;
+    top: -30px;
+    left: 43%;
+
+}
+.moreInfo .button-two:hover{
+    background-color: rgb(240, 216, 220);
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.nav2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 6%;
+    padding-right: 15%;
+    background-color: rgb(213, 228, 249);
+}
+.nav2 ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding :10px 25px;
+}
+.nav2 ul li a{
+    color:rgb(100, 125, 152);
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.nav2 ul li a:hover{
+    color: rgb(255, 255, 255);
+    transition: .4s;
+}
+.box2{
+    display: flex;
+    justify-content:right;
+    align-items:center;
+    min-height: 600px;
+}
+.card2{
+    height: 365px;
+    width: 750px;
+    padding: 20px 35px;
+    background: rgba(162, 185, 213, 0.688);
+    border-radius: 20px;
+    margin: 15px;
+    position:relative;
+    overflow: hidden;
+}
+.card2 h5{
+    text-align: left;
+}
+.card2 p{
+    text-align: left;
+    color: white;
+    font-size: 22px;
+    font-weight: 400;
+}

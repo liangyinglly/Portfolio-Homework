@@ -1,0 +1,53 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Portfolio Website
+{% endblock %}
+
+{% block message %}
+<nav class="nav2">
+    <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/aboutme">About Me</a></li>
+        <li><a href="/experiences">Experiences</a></li>
+        <li><a href="/moreInfo">MoreInfo</a></li>
+    </ul>
+</nav>
+
+<!--Skills Section Start-->
+
+<!--MoreInfo Section Start-->
+<div class="moreInfo">
+    <div class="box2">
+        <div class="card2">
+            <h5>個人特質</h5>
+            <p>性格外向 做事主動積極</p>
+            <p>喜歡腦力激盪 想法新穎</p>
+            <p>行事有條理效率高</p>
+        </div>
+
+        <div class="card2">
+            <h5>英文檢定</h5>
+            <p>多益檢定915分(金色證書)</p>
+            <p>全民英檢中級初試複試皆通過</p>
+            <p>全民英檢中高級初試通過</p>
+        </div>
+
+        <div class="card2">
+            <h5>程式語言</h5>
+            <p><i class="fa-solid fa-star"></i> Python</p>
+            <p><i class="fa-solid fa-star-half-stroke"></i> Java</p>
+            <p><i class="fa-solid fa-star-half-stroke"></i> C</p>
+        </div>
+    </div>
+        
+    <div class="box2">
+        <img src="static/image/照片.jpg" width="500px" style="position:relative;top:-30px;border-radius: 50%;">
+    </div>
+    <div>
+        <a class="button-two" href="tel:+866-965-329-265">Contact Me</a>
+    </div>
+    
+</div>
+
+{% endblock message %}

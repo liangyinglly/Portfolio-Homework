@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Portfolio Website
+{% endblock %}
+
+{% block message %}
+<!--Hero Section Start-->
+ <div class="hero">
+    <nav>
+        <h2 class = "logo">Portfo<span>lio</span></h2>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/aboutme">About Me</a></li>
+            <li><a href="/experiences">Experiences</a></li>
+            <li><a href="/moreInfo">MoreInfo</a></li>
+        </ul>
+        <a href="https://www.facebook.com/liangyingw/" class="btn">Contact Me</a>
+    </nav>
+
+    <div class="content">
+        <h1>Liangying,</h1>
+        <h1>Huang</h1>
+        <img src="static/image/main.jpg" width="200" style="border-radius:50%;">
+    </div>
+
+    <div class="box2">
+        <div class="card2">
+            <h5>Personal Info</h5>
+            <p>
+                <i class="fa-solid fa-laptop-code"></i> Major in : Department of Information Management
+            </p>
+            <p>
+                <i class="fa-solid fa-school"></i> High School Diploma : Taipei First Girls' High School
+            </p>
+            <p>
+                <i class="fa-solid fa-building-columns"></i> Now in : National Central University
+            </p>
+            <p>
+                <i class="fa-solid fa-cake-candles"></i> Date of Birth : 2002/12/23
+            </p>
+            <p>
+                <i class="fa-solid fa-flag"></i> Nationality : Taiwan
+            </p>
+            <p>
+                <i class="fa-solid fa-circle-user"></i> Personality : Outgoing Adventurous and Creative
+            </p>
+        </div>
+    </div>
+</div>
+{% endblock message %}
